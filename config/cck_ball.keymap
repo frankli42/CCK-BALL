@@ -55,10 +55,10 @@
 
         QWERTY {
             bindings = <
-&kp ESCAPE        &kp Q         &kp W         &kp E         &kp R        &kp T  &kp Y      &kp U         &kp I          &kp O     &kp P      &kp BACKSPACE
-&kp TAB           &kp A         &kp S         &kp D         &kp F        &kp G  &kp H      &kp J         &kp K          &kp L     &kp SEMI   &kp SQT
-&kp LEFT_SHIFT    &kp Z         &kp X         &kp C         &kp V        &kp B  &kp N      &kp M         &kp COMMA      &kp DOT   &kp SLASH  &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 SPACE  &mo 3  &kp ENTER  &lt 2 DELETE  &kp RIGHT_ALT  &mkp MB1  &mkp MB2   &mo 4
+                &kp ESC, &kp Q, &kp W, &kp E, &kp R, &kp T, &kp Y, &kp U, &kp I, &kp O, &kp P, &kp BACKSPACE
+                &kp TAB, &kp A, &kp S, &kp D, &kp F, &kp G, &kp H, &kp J, &kp K, &kp L, &kp SEMI, &kp SQT
+                &kp LSHIFT, &kp Z, &kp X, &kp C, &kp V, &kp B, &kp N, &kp M, &kp COMMA, &kp DOT, &kp UP, &kp ENTER
+                &kp LCTRL, &kp LGUI, &kp LALT, &lt 1 SPACE, &lt 2 SPACE, &kp ENTER, &mkp MB1, &mkp MB2, &kp SPACE, &kp LEFT, &kp DOWN, &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -66,10 +66,10 @@
 
         num_layers {
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5   &kp N6     &kp N7    &kp N8     &kp N9     &kp N0  &kp DEL
-&kp CAPS   &kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &none   &kp F11
-&trans     &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp HOME   &kp END   &kp PG_UP  &kp PG_DN  &none   &kp F12
-&trans     &trans  &trans  &trans  &trans  &trans   &mkp LCLK  &mo 3     &trans     &trans     &trans  &trans
+                &kp GRAVE, &kp N1, &kp N2, &kp N3, &kp N4, &kp N5, &kp N6, &kp N7, &kp N8, &kp N9, &kp N0, &kp BACKSPACE
+                &kp LSHIFT, &kp F1, &kp F2, &kp F3, &kp F4, &kp F5, &kp F11, &kp F12, &kp UP, &kp RIGHT, &kp MINUS, &kp FSLH
+                &kp LSHIFT, &kp F6, &kp F7, &kp F8, &kp F9, &kp F10, &kp HOME, &kp END, &kp PG_UP, &kp PG_DN, &none, &kp BSLH
+                &kp LCTRL, &trans, &trans, &trans, &trans, &trans, &mkp MB1, &mo 3, &mkp MB3, &trans, &trans, &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -77,10 +77,10 @@
 
         symbo_layers {
             bindings = <
-&none  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)    &kp LS(LPAR)  &kp LS(RPAR)  &kp LEFT_WIN
-&none  &none     &none   &none     &none       &kp GRAVE    &kp MINUS      &kp EQUAL     &kp LBKT        &kp RBKT      &kp BSLH      &none
-&none  &none     &none   &none     &none       &kp TILDE    &kp UNDER      &kp PLUS      &kp LEFT_BRACE  &kp RBRC      &kp PIPE      &none
-&none  &none     &none   &none     &mo 3       &none        &none          &none         &none           &none         &none         &none
+                &mkp MB3, &kp LS(N1), &kp LS(N2), &kp LS(N3), &kp LS(N4), &kp LS(N5), &kp LS(N6), &kp LS(N7), &kp LS(N8), &kp LS(N9), &kp LS(N0), &kp BACKSPACE
+                &kp LSHIFT, &none, &none, &none, &kp LS(LC(SPACE)), &kp GRAVE, &kp MINUS, &kp EQUAL, &kp LBKT, &kp RBKT, &kp FSLH, &kp BSLH
+                &kp LSHIFT, &none, &none, &none, &kp LS(LC(C)), &kp LG(LS(LC(N4))), &kp LS(MINUS), &kp LS(EQUAL), &kp LBKT, &kp LS(RBKT), &mmv MOVE_UP, &kp ENTER
+                &kp LCTRL, &none, &none, &none, &mo 3, &none, &none, &none, &none, &mmv MOVE_LEFT, &mmv MOVE_DOWN, &mmv MOVE_RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
