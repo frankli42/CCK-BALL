@@ -61,7 +61,7 @@
                 &kp LCTRL &kp LGUI &kp LALT &lt 1 SPACE &lt 2 SPACE &kp ENTER &mkp MB1 &mkp MB2 &kp SPACE &kp LEFT &kp DOWN &kp RIGHT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&scroll_vertical_encoder &scroll_horizontal_encoder>;
         };
 
         num_layers {
@@ -72,7 +72,7 @@
                 &kp LCTRL &trans &trans &trans &trans &trans &mkp MB1 &mo 3 &mkp MB3 &trans &trans &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&scroll_vertical_encoder &scroll_horizontal_encoder>;
         };
 
         symbo_layers {
@@ -83,7 +83,7 @@
                 &kp LCTRL &none &none &none &mo 3 &none &none &none &none &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&scroll_vertical_encoder &scroll_horizontal_encoder>;
         };
 
         settings-layers {
