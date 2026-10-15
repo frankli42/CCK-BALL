@@ -1,0 +1,7 @@
+config ZMK_BEHAVIOR_ENCODER_MOUSE_SCROLL
+    bool "Encoder mouse scroll behavior"
+    default y
+    depends on ZMK_POINTING
+    help
+      Scroll the mouse wheel one step per encoder detent, sent as a single
+      report instead of a press and a release.

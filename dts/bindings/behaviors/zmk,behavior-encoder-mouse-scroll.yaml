@@ -1,0 +1,13 @@
+description: Encoder mouse scroll, one report per detent
+
+compatible: "zmk,behavior-encoder-mouse-scroll"
+
+properties:
+  "#sensor-binding-cells":
+    type: int
+    required: true
+    const: 2
+
+sensor-binding-cells:
+  - param1
+  - param2
