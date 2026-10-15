@@ -69,7 +69,7 @@
                 &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp BACKSPACE
                 &kp LSHIFT &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F11 &kp F12 &kp UP &kp RIGHT &kp MINUS &kp FSLH
                 &kp LSHIFT &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp HOME &kp END &kp PG_UP &kp PG_DN &none &kp BSLH
-                &kp LCTRL &trans &trans &trans &trans &trans &mkp MB1 &mo 3 &mkp MB3 &trans &trans &trans
+                &kp LCTRL &trans &trans &trans &trans &trans &mkp MB1 &mo 3 &mkp MB3 &mkp MB4 &trans &mkp MB5
             >;
 
             sensor-bindings = <&scroll_vertical_encoder &scroll_horizontal_encoder>;
@@ -77,7 +77,7 @@
 
         symbo_layers {
             bindings = <
-                &mkp MB3 &kp LS(N1) &kp LS(N2) &kp LS(N3) &kp LS(N4) &kp LS(N5) &kp LS(N6) &kp LS(N7) &kp LS(N8) &kp LS(N9) &kp LS(N0) &kp BACKSPACE
+                &kp HASH &kp LS(N1) &kp LS(N2) &kp LS(N3) &kp LS(N4) &kp LS(N5) &kp LS(N6) &kp LS(N7) &kp LS(N8) &kp LS(N9) &kp LS(N0) &kp BACKSPACE
                 &kp LSHIFT &none &none &none &kp LS(LC(SPACE)) &kp GRAVE &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp FSLH &kp BSLH
                 &kp LSHIFT &none &none &none &kp LS(LC(C)) &kp LG(LS(LC(N4))) &kp LS(MINUS) &kp LS(EQUAL) &kp LBKT &kp LS(RBKT) &mmv 64536 &kp ENTER
                 &kp LCTRL &none &none &none &mo 3 &none &none &none &bootloader &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT
