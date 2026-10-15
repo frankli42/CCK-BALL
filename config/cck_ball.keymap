@@ -45,7 +45,7 @@
                 &kp LCTRL &kp LGUI &kp LALT &lt 1 SPACE &lt 2 SPACE &kp ENTER &mkp MB1 &mkp MB2 &kp SPACE &kp LEFT &kp DOWN &kp RIGHT
             >;
 
-            sensor-bindings = <&ec_ms SCRL_DOWN SCRL_UP &ec_ms SCRL_LEFT SCRL_RIGHT>;
+            sensor-bindings = <&ec_ms SCRL_DOWN SCRL_UP &ec_ms SCRL_DOWN SCRL_UP>;
         };
 
         num_layers {
@@ -56,7 +56,7 @@
                 &kp LCTRL &trans &trans &trans &trans &trans &mkp MB1 &mo 3 &mkp MB3 &mkp MB4 &trans &mkp MB5
             >;
 
-            sensor-bindings = <&ec_ms SCRL_DOWN SCRL_UP &ec_ms SCRL_LEFT SCRL_RIGHT>;
+            sensor-bindings = <&ec_ms SCRL_DOWN SCRL_UP &ec_ms SCRL_DOWN SCRL_UP>;
         };
 
         symbo_layers {
@@ -67,7 +67,7 @@
                 &kp LCTRL &none &none &none &mo 3 &none &none &none &bootloader &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT
             >;
 
-            sensor-bindings = <&ec_ms SCRL_DOWN SCRL_UP &ec_ms SCRL_LEFT SCRL_RIGHT>;
+            sensor-bindings = <&ec_ms SCRL_DOWN SCRL_UP &ec_ms SCRL_DOWN SCRL_UP>;
         };
 
         settings-layers {
@@ -89,7 +89,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&ec_ms SCRL_DOWN SCRL_UP &ec_ms SCRL_LEFT SCRL_RIGHT>;
+            sensor-bindings = <&ec_ms SCRL_DOWN SCRL_UP &ec_ms SCRL_DOWN SCRL_UP>;
         };
     };
 };
